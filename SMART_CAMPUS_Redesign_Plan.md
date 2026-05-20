@@ -304,7 +304,54 @@ Integrated Finance & Bakong KHQR Payments
 
 ---
 
-### SLIDE 8: TECHNOLOGY FOUNDATION
+### SLIDE 8: CLOUD DEPLOYMENT STRATEGY (NEW)
+
+**Slide Title:** 
+Why Cloud? Scalability, Security, Zero Maintenance.
+
+**Visual Description:**
+- Split-screen comparison table: Left column "On-Premise" (light gray background), Right column "Cloud Deployment" (NPIC blue background with white text)
+- Six rows comparing key factors (Cost, Scalability, Maintenance, Security, Uptime, Updates)
+- Checkmarks in green for Cloud advantages, red X or warning icons for On-Premise limitations
+- Bottom banner: "Recommended: Cloud-First Architecture for NPIC"
+- Clean, high-contrast design for instant comprehension
+
+**Refined Copy (On Slide):**
+```
+Cloud vs. On-Premise: The Strategic Choice
+
+                    On-Premise          │   Cloud Deployment
+─────────────────────────────────────────┼──────────────────────────
+💰 Upfront Cost      High (hardware,     │   Low (pay-as-you-go)
+                     servers, cooling)   │
+                                         │
+📈 Scalability       Fixed capacity      │   Instant elasticity
+                     Requires new        │   Scale up/down on demand
+                     hardware purchases  │
+                                         │
+🔧 Maintenance       Internal IT team    │   Provider-managed
+                     required 24/7       │   Zero infrastructure upkeep
+                                         │
+🔒 Security          Your responsibility │   Enterprise-grade security
+                     Limited resources   │   Built-in compliance, encryption
+                                         │
+⏱️ Uptime            Dependent on        │   99.9%+ SLA guaranteed
+                     local infrastructure│   Redundant data centers
+                                         │
+🔄 Updates           Manual, risky       │   Automatic, seamless
+                     Downtime required   │   Zero-downtime deployments
+                                         │
+✅ RECOMMENDATION: Cloud-First Architecture
+   Deploy SMART-CAMPUS on enterprise cloud infrastructure
+   Focus resources on education, not server maintenance
+```
+
+**Speaker Notes:**
+"Now, a critical strategic decision: where do we host SMART-CAMPUS? I strongly recommend cloud deployment over on-premise servers. Here's why. On-premise requires high upfront costs — hardware, servers, cooling systems — while cloud operates on low, predictable pay-as-you-go pricing. Scalability: on-premise has fixed capacity requiring new hardware purchases for growth; cloud offers instant elasticity, scaling up or down on demand. Maintenance: on-premise demands an internal IT team available 24/7; cloud is provider-managed with zero infrastructure upkeep. Security: on-premise security is your responsibility with limited resources; cloud provides enterprise-grade security with built-in compliance and encryption. Uptime: on-premise depends on local infrastructure; cloud guarantees 99.9%+ uptime with redundant data centers. Updates: on-premise requires manual, risky updates with downtime; cloud delivers automatic, seamless zero-downtime deployments. [Pause] My recommendation is clear: cloud-first architecture. This allows NPIC to focus resources on education, not server maintenance. The system is designed for cloud deployment from day one."
+
+---
+
+### SLIDE 9: TECHNOLOGY FOUNDATION
 
 **Slide Title:** 
 Enterprise-Grade. Battle-Tested. Future-Ready.
@@ -314,11 +361,12 @@ Enterprise-Grade. Battle-Tested. Future-Ready.
 - Top layer: Frontend (Next.js + React icon)
 - Second layer: Backend (NestJS + Prisma icon)
 - Third layer: Database (PostgreSQL + Redis icons)
-- Fourth layer: Deployment (Docker icon)
+- Fourth layer: Cloud Infrastructure (Cloud provider icon + Docker)
 - Bottom layer: Communication Protocols (REST, WebSockets, MQTT icons)
 - Each layer with a short value statement (not technical specs)
 - Clean, minimalist icons; avoid clutter
 - Background: Very subtle grid pattern suggesting architecture/engineering
+- Add small "Cloud-Native" badge in corner
 
 **Refined Copy (On Slide):**
 ```
@@ -336,9 +384,9 @@ The Technology Foundation
    PostgreSQL for reliability and complex queries
    Redis for high-speed caching and session management
 
-🐳 Containerized Deployment
-   Docker ensures consistent, reproducible deployments
-   → Near-zero downtime during updates
+☁️ Cloud-Native Deployment
+   Docker containers on enterprise cloud infrastructure
+   → Auto-scaling, 99.9% uptime, zero-downtime updates
 
 🔌 Multi-Protocol Communication
    REST APIs for standard operations
@@ -351,7 +399,7 @@ The Technology Foundation
 
 ---
 
-### SLIDE 9: IOT & ROADMAP
+### SLIDE 10: IOT & ROADMAP
 
 **Slide Title:** 
 From Smart Software to a Truly Smart Campus
@@ -399,7 +447,7 @@ IoT Integration & The Future Roadmap
 
 ---
 
-### SLIDE 10: CONCLUSION & CALL TO ACTION
+### SLIDE 11: CONCLUSION & CALL TO ACTION
 
 **Slide Title:** 
 The Future Is Built. Let's Deploy.
@@ -423,6 +471,9 @@ Conclusion & Next Steps
    Efficiency gains in enrollment, billing, and asset management
    Ready from day one.
 
+☁️ Cloud-First Deployment Recommended
+   Enterprise cloud infrastructure for scalability and zero maintenance
+
 🏫 Request: Campus-Wide Adoption
    Support for phased rollout
    Comprehensive faculty and staff training program
@@ -432,7 +483,7 @@ Approve Phase 1 Implementation
 ```
 
 **Speaker Notes:**
-"In conclusion: The future is built. Let's deploy. SMART-CAMPUS is live and operational — this is not a proposal, it is a working, deployed system you can see and use today. Immediate ROI is available — efficiency gains in enrollment, billing, and asset management are ready from day one. There is no waiting period, no development phase. What we request is simple: support for campus-wide adoption through a phased rollout and comprehensive faculty and staff training program. [Pause, make eye contact] The technology is proven. The benefits are quantified. The system is operational. We are requesting your approval to initiate Phase 1 implementation immediately. Thank you. Questions?"
+"In conclusion: The future is built. Let's deploy. SMART-CAMPUS is live and operational — this is not a proposal, it is a working, deployed system you can see and use today. Immediate ROI is available — efficiency gains in enrollment, billing, and asset management are ready from day one. There is no waiting period, no development phase. We recommend cloud-first deployment for maximum scalability and zero maintenance burden. What we request is simple: support for campus-wide adoption through a phased rollout and comprehensive faculty and staff training program. [Pause, make eye contact] The technology is proven. The benefits are quantified. The system is operational. We are requesting your approval to initiate Phase 1 implementation immediately. Thank you. Questions?"
 
 ---
 
@@ -473,6 +524,22 @@ Based on the 20 images extracted from your presentation, here's how to deploy th
 
 ---
 
+## UPDATED SLIDE DECK STRUCTURE (11 SLIDES)
+
+1. **Title Slide** — Transforming Education Through Technology: SMART-CAMPUS
+2. **The Urgency** — The Cost of Inaction
+3. **The Solution** — One Ecosystem. Total Control.
+4. **Key Benefits & ROI** — Measurable Impact. Immediate ROI.
+5. **Academic Excellence** — From Enrollment to Graduation — Digitally Seamless
+6. **Facilities & Asset Management** — Know Every Building. Track Every Asset.
+7. **Integrated Finance** — Automate Billing. Accelerate Cash Flow.
+8. **Cloud Deployment Strategy** *(NEW)* — Why Cloud? Scalability, Security, Zero Maintenance.
+9. **Technology Foundation** — Enterprise-Grade. Battle-Tested. Future-Ready.
+10. **IoT & Roadmap** — From Smart Software to a Truly Smart Campus
+11. **Conclusion & Call to Action** — The Future Is Built. Let's Deploy.
+
+---
+
 ## IMPLEMENTATION CHECKLIST
 
 - [ ] Apply NPIC brand colors consistently across all slides
@@ -490,4 +557,5 @@ Based on the 20 images extracted from your presentation, here's how to deploy th
 **Document Prepared By:** Executive Presentation Design Analysis  
 **Source Material:** "Transforming Education Through Technology.pptx" (10 slides, 20 images)  
 **Constraint Adherence:** 100% — All content derived exclusively from uploaded presentation  
-**Date:** Current Session
+**Date:** Current Session  
+**Update:** Added Slide 8 (Cloud Deployment Strategy) - Cloud vs. On-Premise comparison
